@@ -1,0 +1,247 @@
+.layout1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(132, 199, 84);
+  background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?t=st=1740885973~exp=1740889573~hmac=dc7ccc6c19d2fdbee60ef506ba79761d18d923a742dfa9db0212361fde794e71&w=1060);
+  background-size: cover;
+}
+.header1 {
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+.description {
+  text-align: center;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  margin: 0 10px;
+}
+.btn1 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(132, 199, 84);
+  border: 2px solid rgb(132, 199, 84);
+  font-family: "Courier New", Courier, monospace;
+}
+.btn1:hover {
+  background-color: darkgreen;
+  color: white;
+}
+.profile1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid rgb(132, 199, 84);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  min-width: 300px;
+  width: 35%;
+}
+.card1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 200px;
+  background-color: rgb(132, 199, 84);
+  border-radius: 20px;
+  margin: 10px;
+  color: black;
+}
+.avatar {
+  display: flex;
+  width: 30%;
+  text-align: center;
+  margin: 0px;
+}
+.name {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+.name h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.name p {
+  font-size: 15px;
+  margin-top: 0px;
+  text-align: center;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  margin: 10px;
+  padding: 0px;
+}
+.contact1,
+.skills1,
+.edu1,
+.projects1 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid rgb(132, 199, 84);
+  border-radius: 10px;
+  min-width: 250px;
+  width: 45%;
+}
+.info {
+  height: 170px;
+}
+.info h3 {
+  font-size: 20px;
+  margin: 5px;
+}
+.info p {
+  font-size: 15px;
+  margin: 5px;
+}
+.prof {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+  min-width: 300px;
+  width: 100%;
+}
+.datetime1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 10px;
+  min-width: 200px;
+  width: 100%;
+  background-color: rgb(132, 199, 84);
+  color: black;
+}
+.date,
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 0px;
+  min-width: 300px;
+  width: 45%;
+}
+
+.layout2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: rgb(209, 72, 54);
+}
+
+.header2 {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.btn2 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(209, 72, 54);
+}
+
+.btn2:hover {
+  background-color: rgb(209, 72, 54);
+  color: white;
+}
+
+.profile2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  min-width: 300px;
+  width: 35%;
+  background-color: white;
+  color: rgb(209, 72, 54);
+}
+.card2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 200px;
+  background-color: rgb(209, 72, 54);
+  border-radius: 20px;
+  margin: 10px;
+  color: white;
+}
+
+.contact2,
+.skills2,
+.edu2,
+.projects2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid rgb(209, 72, 54);
+  border-radius: 10px;
+  min-width: 250px;
+  width: 45%;
+}
+.datetime2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 10px;
+  min-width: 200px;
+  width: 100%;
+  background-color: rgb(209, 72, 54);
+  color: white;
+}
