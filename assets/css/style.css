@@ -93,8 +93,8 @@ header li {
 }
 .avatar img {
   border-radius: 50%;
-  width: 80%;
-  height: 80%;
+  width: 200px;
+  height: 200px;
   margin: 10px auto;
   padding: 0px;
 }

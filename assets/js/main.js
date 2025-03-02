@@ -14,10 +14,21 @@ function updateDate() {
   const timeString = `Date: ${days}/${months}/${years}`;
   document.getElementById("date").innerHTML = timeString;
 }
+function randomAvatar() {
+  const avatars = ["./img/avt.jpg", "./img/avt2.jpg"];
+  const avatar = document.querySelector("img");
+  const currentSrc = avatar.src.split("/").pop(); // Lấy phần cuối của URL ảnh hiện tại
+  if (currentSrc === avatars[0].split("/").pop()) {
+    avatar.src = avatars[1];
+  } else {
+    avatar.src = avatars[0];
+  }
+}
 updateDate();
 updateClock();
 setInterval(updateClock, 1000);
 setInterval(updateDate, 100000);
+randomAvatar();
 
 // Lấy phần tử cần thay đổi
 const body = document.getElementById("body");
@@ -46,6 +57,7 @@ document.getElementById("btn1").addEventListener("click", function () {
   projects.classList.remove("projects2");
   const datetime = document.querySelector(".datetime1");
   datetime.classList.remove("datetime2");
+  randomAvatar();
 });
 
 document.getElementById("btn2").addEventListener("click", function () {
@@ -71,4 +83,5 @@ document.getElementById("btn2").addEventListener("click", function () {
   projects.classList.add("projects2");
   const datetime = document.querySelector(".datetime1");
   datetime.classList.add("datetime2");
+  randomAvatar();
 });
