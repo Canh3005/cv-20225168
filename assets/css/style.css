@@ -72,12 +72,12 @@ header li {
 }
 .avatar {
   display: flex;
-  width: 30%;
+  width: 250px;
   text-align: center;
-  margin: 0px;
+  margin: 0px auto;
 }
 .name {
-  width: 70%;
+  width: 300px;
   display: flex;
   flex-direction: column;
   margin: 0px auto;
@@ -95,7 +95,7 @@ header li {
   border-radius: 50%;
   width: 80%;
   height: 80%;
-  margin: 10px;
+  margin: 10px auto;
   padding: 0px;
 }
 .contact1,
