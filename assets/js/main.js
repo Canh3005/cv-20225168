@@ -43,6 +43,8 @@ document.getElementById("btn1").addEventListener("click", function () {
   for (element of button) {
     element.classList.remove("btn2");
   }
+  document.getElementById("btn1").classList.add("btn1-active");
+  document.getElementById("btn2").classList.remove("btn2-active");
   const profile = document.querySelector(".profile1");
   profile.classList.remove("profile2");
   const card = document.querySelector(".card1");
@@ -69,6 +71,8 @@ document.getElementById("btn2").addEventListener("click", function () {
   for (element of button) {
     element.classList.add("btn2");
   }
+  document.getElementById("btn1").classList.remove("btn1-active");
+  document.getElementById("btn2").classList.add("btn2-active");
   const profile = document.querySelector(".profile1");
   profile.classList.add("profile2");
   const card = document.querySelector(".card1");
